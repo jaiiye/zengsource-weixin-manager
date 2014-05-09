@@ -1,0 +1,64 @@
+{
+    "button": [
+        {
+            "name": "操作",
+            "sub_button": [
+                {
+                    "type": "click",
+                    "name": "提问",
+                    "key": "ASK_QUESTION"
+                },
+                {
+                    "type": "click",
+                    "name": "回答",
+                    "key": "ANSWER_QUESTION"
+                },
+                {
+                    "type": "click",
+                    "name": "刷新",
+                    "key": "REFRESH"
+                }
+            ]
+        },
+        {
+            "name": "帐号",
+            "sub_button": [
+                {
+                    "type": "click",
+                    "name": "帐号信息",
+                    "key": "GET_USER_INFO"
+                },
+                {
+                    "type": "click",
+                    "name": "我的问题",
+                    "key": "GET_MY_QUESTIONS"
+                },
+                {
+                    "type": "click",
+                    "name": "我的回答",
+                    "key": "GET_MY_ANSWERS"
+                }
+            ]
+        },
+        {
+            "name": "充值",
+            "sub_button": [
+                {
+                    "type": "click",
+                    "name": "查询余额",
+                    "key": "CHECK_BALANCE"
+                },
+                {
+                    "type": "click",
+                    "name": "微信充值",
+                    "key": "PAY_BY_WEIXIN"
+                },
+                {
+                    "type": "click",
+                    "name": "淘宝充值",
+                    "key": "PAY_BY_TAOBAO"
+                }
+            ]
+        }
+    ]
+}
